@@ -108,6 +108,71 @@ h3{
 .captain-box p{
 	font-size:20px;
 }
+
+.button{
+	display: inline-block;
+	padding: 10px 50px;
+	margin: 0px 10px;
+	position: relative;
+	color: #ecf0f1;
+	font-size: 20px;
+	text-decoration: none;
+  }
+  #button-1{
+	background-color: #295890;
+	-webkit-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
+	-webkit-perspective: 100px;
+	-moz-perspective: 100px;
+	-ms-perspective: 100px;
+	perspective: 100px;
+	-webkit-perspective-origin: right;
+	-moz-perspective-origin: right;
+	-ms-perspective-origin: right;
+	perspective-origin: right;
+	text-decoration: none;
+	color: #ecf0f1;
+	
+  }
+  #button-1:hover{
+	background-color: #b11e25;
+  }
+  #button-1:after{
+	content: "X";
+	line-height: 50px;
+	position: absolute;
+	top: 0;
+	right: -40px;
+	width: 40px;
+	height: 100%;
+	background-color: #295890;
+	-webkit-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
+	-webkit-transform: rotateY(90deg);
+	-ms-transform: rotateY(90deg);
+	-o-transform: rotateY(90deg);
+	transform: rotateY(90deg);
+	-webkit-transform-origin: left;
+	-moz-transform-origin: left;
+	-ms-transform-origin: left;
+	-o-transform-origin: left;
+	transform-origin: left;
+	text-decoration: none;
+	color: #ecf0f1;
+  }
+  
+  #button-1:hover:after{
+	-webkit-transform: rotateY(0deg);
+	-ms-transform: rotateY(0deg);
+	-o-transform: rotateY(0deg);
+	transform: rotateY(0deg);
+	text-decoration: none;
+	background-color: #b11e25;
+	color: #ecf0f1;
+  }
+  
 .category{
 	position: relative;
 	width: 23%;

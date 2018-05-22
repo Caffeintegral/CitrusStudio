@@ -170,15 +170,13 @@
 	<div id="migi">
 		<div class="captain">
 			<div class="captain-top">
-				<div class="captain-box">
+				<div class="captain-box" style="width:30%;">
 					<h2>艦長スキル</h2>
 				</div>
-				<div class="captain-box">
-						<div class="counter">
-						現在のスキルポイント合計
-						<input id="Count" name="Count" size="8" value="0" readonly> point
-						<input type="button" value="リセット" onclick="allcheck(false);">
-					</div>
+				<div class="captain-box" style="width:70%;">
+					<h3 style="display: inline-block;">現在のスキルポイント合計</h3>
+					<input id="Count" name="Count" size="8" value="0" readonly><p style="display: inline;">point</p>
+					<a href="#" class="button" id="button-1" onclick="allcheck(false);return false;">RESET</a>
 				</div>
 			</div>
 			<div class="category">
